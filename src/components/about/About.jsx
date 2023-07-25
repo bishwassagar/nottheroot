@@ -1,11 +1,14 @@
-
+import Cards from "../cards/Cards";
 
 function About() {
   return (
-    <div id="About" className="flex flex-col items-center justify-center h-screen">
-      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-        nottheroot | CySec
-      </h1>
+    <div
+      id="About"
+      className="flex items-center justify-center h-screen"
+    >
+      <div>
+        <div><Cards /></div>
+      </div>
     </div>
   );
 }
