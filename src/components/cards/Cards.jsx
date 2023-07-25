@@ -1,29 +1,19 @@
 import Bishwas from "../../assets/me-about.webp";
-import "./Cards.css";
 
 function Cards() {
   return (
-    <section id="about" className="flex m-72">
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
+    <section id="about" className="flex m-72 ">
+      <div className="flex flex-row space-x-10 items-center justify-center">
+        <div className="w-44 sm:w-30 md:w-60 rounded-full overflow-hidden">
+          <div>
             <img src={Bishwas} alt="About Img" />
           </div>
         </div>
 
-        <div className="about__content">
+        <div>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
             <i>0x1</i><br/> Bishwas Sagar
           </h1>
-          <p>
-            ./whoami <br /> I&apos;m an IT enthusiast who loves what he does.{" "}
-            <br /> 🌱 What I am studying : <br />
-            &gt; I&apos;m improving my knowledges on Linux and Container
-            orchestration. <br />
-            &gt; I&apos;m learning from scratch Flutter and Python. <br />
-            &gt; I&apos;m looking to collaborate on ... ideas and projects and
-            hopefully more in the future!
-          </p>
           <a
             href="https://www.linkedin.com/in/bishwassagar/"
             target="_blank"

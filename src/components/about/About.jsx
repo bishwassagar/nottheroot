@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       id="About"
-      className="flex items-center justify-center h-screen"
+      className="flex flex-col items-center justify-center h-screen"
     >
       <div>
         <div><Cards /></div>
