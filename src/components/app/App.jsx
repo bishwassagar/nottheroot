@@ -1,4 +1,5 @@
-import './App.css'
+import "./App.css";
+import { Link } from "react-scroll";
 
 function App() {
   return (
@@ -13,14 +14,23 @@ function App() {
         enthusiasts, committed to enhancing our knowledge and skills to tackle
         complex challenges in the digital world.
       </p>
-      <button className="bg-white w-36 h-12 rounded-md border-2 border-[#333] cursor-pointer relative group hover:bg-[#333] transition duration-300 ease-in hover:-translate-x-2 hover:translate-y-2 object-bottom">
-        <h1 className="group-hover:text-white text-[#333] font-bold">
-          About Us!
-        </h1>
-        <div className="rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10">
-          <div className="rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10"></div>
-        </div>
-      </button>
+      <Link
+        activeClass="active"
+        to="About" // Provide the ID of the element to scroll to
+        spy={true}
+        smooth={true}
+        offset={0} // Adjust the offset according to your layout
+        duration={400} // Duration of the scrolling animation in milliseconds
+      >
+        <button className="bg-white w-36 h-12 rounded-md border-2 border-[#333] cursor-pointer relative group hover:bg-[#333] transition duration-300 ease-in hover:-translate-x-2 hover:translate-y-2 object-bottom">
+          <h1 className="group-hover:text-white text-[#333] font-bold">
+            About Us!
+          </h1>
+          <div className="rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10">
+            <div className="rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10"></div>
+          </div>
+        </button>
+      </Link>
     </div>
   );
 }
