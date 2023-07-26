@@ -12,7 +12,7 @@ function App() {
         We&apos;re a team of avid learners and enthusiastic individuals pursuing
         CSE in Cyber Security, we&apos;re a dedicated group of cyber security
         enthusiasts, committed to enhancing our knowledge and skills to tackle
-        complex challenges in the.
+        complex challenges in the digital world.
       </p>
       <Link
         activeClass="active"
