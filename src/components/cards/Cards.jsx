@@ -12,7 +12,7 @@ function Cards() {
 
         <div>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            <i>0x1</i><br/> Bishwas Sagar
+            <i><span className="text-red-600 dark:text-red-500">0x1</span></i><br/> Bishwas Sagar
           </h1>
           <a
             href="https://www.linkedin.com/in/bishwassagar/"
