@@ -1,4 +1,4 @@
-import Bishwas from "../../assets/me-about.webp";
+import Musharraf from "../../assets/mosh.png";
 
 function Cards_Musharraf() {
   return (
@@ -6,7 +6,7 @@ function Cards_Musharraf() {
       <div className="flex flex-row space-x-10 items-center justify-center">
         <div className="w-44 sm:w-30 md:w-60 rounded-full overflow-hidden">
           <div>
-            <img src={Bishwas} alt="About Img" />
+            <img src={Musharraf} alt="About Img" />
           </div>
         </div>
 
