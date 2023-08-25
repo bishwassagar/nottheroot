@@ -1,6 +1,6 @@
 import Bishwas from "../../assets/me-about.webp";
 
-function Cards() {
+function Cards_Musharraf() {
   return (
     <section id="about" className="flex m-72 ">
       <div className="flex flex-row space-x-10 items-center justify-center">
@@ -12,10 +12,10 @@ function Cards() {
 
         <div>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            <i><span className="text-red-600 dark:text-red-500">0x1</span></i><br/> Bishwas Sagar
+            <i><span className="text-red-600 dark:text-red-500">0x2</span></i><br/> Md. Musharraf
           </h1>
           <a
-            href="https://www.linkedin.com/in/bishwassagar/"
+            href="https://www.linkedin.com/in/sudomosh/"
             target="_blank"
             rel="noreferrer"
           >
@@ -34,4 +34,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default Cards_Musharraf;

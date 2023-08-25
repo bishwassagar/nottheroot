@@ -1,6 +1,6 @@
-import Cards from "../cards/Cards";
+import Cards from "../cards/Cards_Bishwas";
 
-function About() {
+function About_Bishwas() {
   return (
     <div
       id="About"
@@ -13,4 +13,4 @@ function About() {
   );
 }
 
-export default About;
+export default About_Bishwas;
