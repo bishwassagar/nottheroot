@@ -12,10 +12,10 @@ function Cards_Avinash() {
 
         <div>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            <i><span className="text-red-600 dark:text-red-500">0x2</span></i><br/> Avinash Kumar
+            <i><span className="text-red-600 dark:text-red-500">0x3</span></i><br/> Avinash Kumar
           </h1>
           <a
-            href="https://www.linkedin.com/in/avinash007/"
+            href="https://www.linkedin.com/in/avinashk007/"
             target="_blank"
             rel="noreferrer"
           >
