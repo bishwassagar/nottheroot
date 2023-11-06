@@ -10,9 +10,9 @@ function About_Team() {
   return (
     <div>
             <About Name='Bishwas Sagar' Rank='0x1' LinkedIn ='https://www.linkedin.com/in/bishwassagar/' Image={Bishwas_Img} />
-            <About Name='Md. Musharraf' Rank='0x2' LinkedIn ='https://www.linkedin.com/in/bishwassagar/' Image={SudoMosh_Img} />
-            <About Name='Zeeshan Ali' Rank='0x3' LinkedIn ='https://www.linkedin.com/in/bishwassagar/' Image={Zeeshan_Img }/>
-            <About Name='Avinash Kumar' Rank='0x4' LinkedIn ='https://www.linkedin.com/in/bishwassagar/' Image={Avinash_Img} />
+            <About Name='Md. Musharraf' Rank='0x2' LinkedIn ='https://www.linkedin.com/in/sudomosh/' Image={SudoMosh_Img} />
+            <About Name='Zeeshan Ali' Rank='0x3' LinkedIn ='https://www.linkedin.com/in/zeeshan-ali-4abba6153/' Image={Zeeshan_Img }/>
+            <About Name='Avinash Kumar' Rank='0x4' LinkedIn ='https://www.linkedin.com/in/avinashk007/' Image={Avinash_Img} />
     </div>
   )
 }
