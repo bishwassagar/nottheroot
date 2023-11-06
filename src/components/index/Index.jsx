@@ -1,7 +1,8 @@
-import "./App.css";
+import React from 'react'
 import { Link } from "react-scroll";
+import './Index.css'
 
-function App() {
+function index() {
   return (
     <div id="home" className="flex flex-col items-center justify-center h-screen">
       <div className="loader"></div>
@@ -10,7 +11,7 @@ function App() {
       </h1>
       <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">
         We&apos;re a team of avid learners and enthusiastic individuals pursuing
-        CSE in Cyber Security, we&apos;re a dedicated group of cyber security
+        CSE in Cyber Security. We&apos;re a dedicated group of cyber security
         enthusiasts, committed to enhancing our knowledge and skills to tackle
         complex challenges in the digital world.
       </p>
@@ -32,7 +33,7 @@ function App() {
         </button>
       </Link>
     </div>
-  );
+  )
 }
 
-export default App;
+export default index

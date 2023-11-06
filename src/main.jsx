@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './components/app/App.jsx'
+import Index from './components/index/Index.jsx'
 import About_Team from './components/about/About_Team.jsx'
 import Footer from './components/footer/Footer.jsx'
-import './index.css'
+import './main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Index />
     <About_Team/>
     <Footer />
   </React.StrictMode>,
