@@ -18,12 +18,12 @@ function Team(props) {
       </div>
 
       {/* Social Media Buttons */}
-      <div className="flex items-center justify-between pt-8 mx-auto text-gray-500 w-44">
+      <div className="flex items-center justify-between pt-2 mx-auto text-gray-500 w-32">
         {/* Mail */}
         <a href={props.Mail} target="_blank" rel="noreferrer">
           <svg
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             fill="currentColor"
             className="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
             viewBox="0 0 20 20"
@@ -35,8 +35,8 @@ function Team(props) {
         <a href={props.GitHub} target="_blank" rel="noreferrer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             fill="currentColor"
             className="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
             viewBox="0 0 1792 1792"
@@ -47,8 +47,8 @@ function Team(props) {
         {/* LinkedIn */}
         <a href={props.LinkedIn} target="_blank" rel="noreferrer">
           <svg
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             fill="currentColor"
             className="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
             viewBox="0 0 1792 1792"
@@ -60,8 +60,8 @@ function Team(props) {
         {/* Resume */}
         <a href={props.Resume} target="_blank" rel="noreferrer">
           <svg
-            width="30"
-            height="30"
+            width="20"
+            height="20"
             fill="currentColor"
             className="text-xl transition-colors duration-200 hover:text-gray-800 dark:hover:text-white"
             viewBox="0 0 16 20"
