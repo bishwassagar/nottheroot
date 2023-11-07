@@ -17,7 +17,7 @@ function index() {
       </p>
       <Link
         activeClass="active"
-        to="About" // Provide the ID of the element to scroll to
+        to="team" // Provide the ID of the element to scroll to
         spy={true}
         smooth={true}
         offset={0} // Adjust the offset according to your layout
