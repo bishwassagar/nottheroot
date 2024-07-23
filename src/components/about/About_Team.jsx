@@ -22,7 +22,7 @@ function About_Team() {
           Name="Bishwas Sagar"
           Rank="0x1"
           Image={Bishwas_Img}
-          Mail="mailto:bishwas@tuta.io"
+          Mail="mailto:&#98;&#105;&#115;&#104;&#119;&#97;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;"
           GitHub="https://github.com/bishwassagar"
           LinkedIn="https://linkedin.com/in/bishwassagar/"
           Resume={Bishwas_Resume}
@@ -31,7 +31,7 @@ function About_Team() {
           Name="Md. Musharraf"
           Rank="0x2"
           Image={SudoMosh_Img}
-          Mail="mailto:sudomosh@proton.me"
+          Mail="mailto:&#115;&#117;&#100;&#111;&#109;&#111;&#115;&#104;&#64;&#112;&#114;&#111;&#116;&#111;&#110;&#46;&#109;&#101;"
           GitHub="https://github.com/sudomosh"
           LinkedIn="https://linkedin.com/in/sudomosh/"
           Resume="#"
@@ -40,7 +40,7 @@ function About_Team() {
           Name="Zeeshan Ali"
           Rank="0x3"
           Image={Zeeshan_Img}
-          Mail="mailto:zeeshanalihere@proton.me"
+          Mail="mailto:&#122;&#101;&#101;&#115;&#104;&#97;&#110;&#97;&#108;&#105;&#104;&#101;&#114;&#101;&#64;&#112;&#114;&#111;&#116;&#111;&#110;&#46;&#109;&#101;"
           GitHub="https://github.com/zeeshanali-7"
           LinkedIn="https://linkedin.com/in/zeeshan-ali-4abba6153/"
           Resume={Zeeshan_Resume}
@@ -49,7 +49,7 @@ function About_Team() {
           Name="Avinash Kumar"
           Rank="0x4"
           Image={Avinash_Img}
-          Mail="mailto:avinash808.hitcsecs2020@gmail.com"
+          Mail="mailto:&#97;&#118;&#105;&#110;&#97;&#115;&#104;&#56;&#48;&#56;&#46;&#104;&#105;&#116;&#99;&#115;&#101;&#99;&#115;&#50;&#48;&#50;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
           GitHub="https://github.com/avinash808"
           LinkedIn="https://linkedin.com/in/avinashk007/"
           Resume={Avinash_Resume}
