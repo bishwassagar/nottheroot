@@ -22,7 +22,7 @@ function About_Team() {
           Name="Bishwas Sagar"
           Rank="0x1"
           Image={Bishwas_Img}
-          Mail="mailto:&#98;&#105;&#115;&#104;&#119;&#97;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;""
+          Mail="mailto:&#98;&#105;&#115;&#104;&#119;&#97;&#115;&#64;&#116;&#117;&#116;&#97;&#46;&#105;&#111;"
           GitHub="https://github.com/bishwassagar"
           LinkedIn="https://linkedin.com/in/bishwassagar/"
           Resume={Bishwas_Resume}
